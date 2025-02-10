@@ -25,14 +25,14 @@ The **AI-Powered Legal Document Analyzer** is a tool designed to automate legal 
 ### Clone the Repository
 ```sh
  git clone https://github.com/warcryy/Legal-Doc-Analyzer-Backend.git
- cd Legal-Doc-Analyzer
+ cd Legal-Doc-Analyzer-Bakend
 ```
 
 ### Configure Hugging Face API Token
 1. Go to [Hugging Face](https://huggingface.co/settings/tokens) and generate an access token.
 2. Add the token to your `application.properties` file:
    ```properties
-   open.api.token=your_huggingface_token_here
+   openai.api.key=your_huggingface_api_key
    ```
 
 ### Build and Run the Application
